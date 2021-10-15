@@ -10,7 +10,7 @@
 
 - 📫 How to reach me **phservice.kr@gmail.com**
 
-- ⚡ Fun fact **Coding is more informative and fun than games.**
+- ⚡ Fun fact **html is not a programming language**
 
 
 <h3 align="left">Connect with me:</h3>
