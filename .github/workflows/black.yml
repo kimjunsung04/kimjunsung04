@@ -33,7 +33,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_ignored : html, css
-          plugin_languages_limit: 8
+          plugin_languages_limit: 21
           plugin_languages_threshold: 0%
           plugin_people: yes
           plugin_people_limit: 28
