@@ -1,0 +1,446 @@
+- name: Metrics embed
+  # You may pin to the exact commit or the version.
+  # uses: lowlighter/metrics@c09205ddbd2ffeffe0eacc12745f736eef60b69b
+  uses: lowlighter/metrics@v3.16
+  with:
+    # Metrics base content
+    base: # optional, default is header, activity, community, repositories, metadata
+    # Number of repositories to use
+    repositories: # optional, default is 100
+    # Number of repositories to load at once by queries
+    repositories_batch: # optional, default is 100
+    # Include forks in metrics
+    repositories_forks: # optional
+    # Repositories affiliations
+    repositories_affiliations: # optional, default is owner
+    # Default repositories to skip
+    repositories_skipped: # optional, default is 
+    # List of surnames or email addresses you use when authoring commits
+    commits_authoring: # optional, default is .user.login
+    # GitHub Personal Token
+    token: 
+    # GitHub username
+    user: # optional, default is 
+    # GitHub repository
+    repo: # optional, default is 
+    # GitHub Token used to commit metrics
+    committer_token: # optional, default is ${{ github.token }}
+    # Branch used to commit rendered metrics
+    committer_branch: # optional, default is 
+    # Commit message
+    committer_message: # optional, default is Update ${filename} - [Skip GitHub Action]
+    # Gist used to store metrics
+    committer_gist: # optional, default is 
+    # Rendered metrics output path
+    filename: # optional, default is github-metrics.*
+    # Rendered markdown output path
+    markdown: # optional, default is TEMPLATE.md
+    # Rendered markdown file cache
+    markdown_cache: # optional, default is .cache
+    # Output action
+    output_action: # optional, default is commit
+    # Output condition
+    output_condition: # optional, default is always
+    # SVG optimization
+    optimize: # optional, default is true
+    # Additional community templates to setup
+    setup_community_templates: # optional, default is 
+    # Template to use
+    template: # optional, default is classic
+    # Additional query parameters
+    query: # optional, default is {}
+    # Extra CSS
+    extras_css: # optional, default is 
+    # Timezone used
+    config_timezone: # optional, default is 
+    # Configure content order
+    config_order: # optional, default is 
+    # Use twemojis instead of emojis
+    config_twemoji: # optional
+    # Use GitHub custom emojis
+    config_gemoji: # optional, default is true
+    # Render display width
+    config_display: # optional, default is regular
+    # SVG CSS animations
+    config_animations: # optional, default is true
+    # Encode images links into base64 data
+    config_base64: # optional, default is true
+    # Image padding
+    config_padding: # optional, default is 0, 8 + 11%
+    # Output image format
+    config_output: # optional, default is auto
+    # Number of retries
+    retries: # optional, default is 3
+    # Time to wait (in seconds) before each retry
+    retries_delay: # optional, default is 300
+    # Die on plugins errors
+    plugins_errors_fatal: # optional
+    # Debug logs
+    debug: # optional
+    # Verify SVG
+    verify: # optional
+    # Debug flags
+    debug_flags: # optional, default is 
+    # Enable dry-run
+    dryrun: # optional
+    # Experimental features
+    experimental_features: # optional, default is 
+    # Use mocked data instead of live APIs
+    use_mocked_data: # optional
+    # Use pre-built image from GitHub registry
+    use_prebuilt_image: # optional, default is true
+    # Use this to avoid triggering abuse mechanics on large workflows
+    delay: # optional, default is 0
+    # Display an isometric view of your commits calendar
+    plugin_isocalendar: # optional
+    # Set time window shown by isometric calendar
+    plugin_isocalendar_duration: # optional, default is half-year
+    # Display most used languages metrics
+    plugin_languages: # optional
+    # Languages to ignore
+    plugin_languages_ignored: # optional, default is 
+    # Repositories to skip
+    plugin_languages_skipped: # optional, default is 
+    # Maximum number of languages to display
+    plugin_languages_limit: # optional, default is 8
+    # Sections to display
+    plugin_languages_sections: # optional, default is most-used
+    # Custom languages colors
+    plugin_languages_colors: # optional, default is github
+    # Custom languages names
+    plugin_languages_aliases: # optional, default is 
+    # Additional details
+    plugin_languages_details: # optional, default is 
+    # Minimum threshold
+    plugin_languages_threshold: # optional, default is 0%
+    # Indepth languages processing (see documentation before enabling)
+    plugin_languages_indepth: # optional
+    # Languages analysis timeout
+    plugin_languages_analysis_timeout: # optional, default is 15
+    # Language categories to display
+    plugin_languages_categories: # optional, default is markup, programming
+    # Language categories to display (for recently used section)
+    plugin_languages_recent_categories: # optional, default is markup, programming
+    # Number of events to load (for recently used section)
+    plugin_languages_recent_load: # optional, default is 300
+    # Maximum event age (for recently used section)
+    plugin_languages_recent_days: # optional, default is 14
+    # Display starred topics
+    plugin_topics: # optional
+    # Plugin mode
+    plugin_topics_mode: # optional, default is starred
+    # Sorting method of starred topics
+    plugin_topics_sort: # optional, default is stars
+    # Maximum number of topics to display
+    plugin_topics_limit: # optional, default is 15
+    # Display recently starred repositories
+    plugin_stars: # optional
+    # Maximum number of stars to display
+    plugin_stars_limit: # optional, default is 4
+    # Display licenses informations
+    plugin_licenses: # optional
+    # Command to setup target repository
+    plugin_licenses_setup: # optional, default is 
+    # Display used licenses ratio
+    plugin_licenses_ratio: # optional
+    # Display legal informations about used licenses
+    plugin_licenses_legal: # optional, default is true
+    # Display coding habits metrics
+    plugin_habits: # optional
+    # Number of events to use
+    plugin_habits_from: # optional, default is 200
+    # Maximum event age
+    plugin_habits_days: # optional, default is 14
+    # Display coding habits collected facts based on recent activity
+    plugin_habits_facts: # optional, default is true
+    # Display coding habits charts based on recent activity
+    plugin_habits_charts: # optional
+    # Trim unused hours on daily chart
+    plugin_habits_trim: # optional
+    # Display repository contributors
+    plugin_contributors: # optional
+    # Base reference
+    plugin_contributors_base: # optional, default is 
+    # Head reference
+    plugin_contributors_head: # optional, default is master
+    # Contributors to ignore
+    plugin_contributors_ignored: # optional, default is github-actions[bot], dependabot[bot], dependabot-preview[bot]
+    # Display contributions
+    plugin_contributors_contributions: # optional
+    # Sections to display
+    plugin_contributors_sections: # optional, default is contributors
+    # Contributions categories
+    plugin_contributors_categories: # optional, default is {
+  "📚 Documentation": ["README.md", "docs/**"],
+  "💻 Code": ["source/**", "src/**"],
+  "#️⃣ Others": ["*"]
+}
+
+    # Display follow-up of repositories issues and pull requests
+    plugin_followup: # optional
+    # Sections to display
+    plugin_followup_sections: # optional, default is repositories
+    # Indepth follow-up processing
+    plugin_followup_indepth: # optional
+    # Display average issue comments reactions
+    plugin_reactions: # optional
+    # Maximum number of issue comments to parse
+    plugin_reactions_limit: # optional, default is 200
+    # Maximum number of issues and pull requests opened to parse
+    plugin_reactions_limit_issues: # optional, default is 100
+    # Maximum number of discussions opened to parse
+    plugin_reactions_limit_discussions: # optional, default is 100
+    # Maximum number of discussions comments opened to parse
+    plugin_reactions_limit_discussions_comments: # optional, default is 100
+    # Maximum comments age
+    plugin_reactions_days: # optional, default is 0
+    # Display mode
+    plugin_reactions_display: # optional, default is absolute
+    # Additional details
+    plugin_reactions_details: # optional, default is 
+    # Users to ignore
+    plugin_reactions_ignored: # optional, default is github-actions[bot], dependabot[bot], dependabot-preview[bot]
+    # Display GitHub users from various affiliations
+    plugin_people: # optional
+    # Maximum number of user to display
+    plugin_people_limit: # optional, default is 24
+    # Size of displayed GitHub users' avatars
+    plugin_people_size: # optional, default is 28
+    # Affiliations to display
+    plugin_people_types: # optional, default is followers, following
+    # GitHub users to personally thanks
+    plugin_people_thanks: # optional, default is 
+    # Custom GitHub sponsors
+    plugin_people_sponsors_custom: # optional, default is 
+    # Use identicons instead of avatars
+    plugin_people_identicons: # optional
+    # Shuffle users
+    plugin_people_shuffle: # optional
+    # Display stargazers metrics
+    plugin_stargazers: # optional
+    # Display active projects
+    plugin_projects: # optional
+    # Maximum number of projects to display
+    plugin_projects_limit: # optional, default is 4
+    # List of repository project identifiers to disaplay
+    plugin_projects_repositories: # optional, default is 
+    # Display projects descriptions
+    plugin_projects_descriptions: # optional
+    # Display a random code snippet from recent activity
+    plugin_code: # optional
+    # Maximum number of line that a code snippet can contain
+    plugin_code_lines: # optional, default is 12
+    # Number of events to load
+    plugin_code_load: # optional, default is 100
+    # Set events visibility
+    plugin_code_visibility: # optional, default is public
+    # Repositories to skip
+    plugin_code_skipped: # optional, default is 
+    # Restrict code snippet languages
+    plugin_code_languages: # optional, default is 
+    # Display recent activity
+    plugin_activity: # optional
+    # Maximum number of events to display
+    plugin_activity_limit: # optional, default is 5
+    # Number of events to load
+    plugin_activity_load: # optional, default is 300
+    # Maximum event age
+    plugin_activity_days: # optional, default is 14
+    # Events types to keep
+    plugin_activity_filter: # optional, default is all
+    # Set events visibility
+    plugin_activity_visibility: # optional, default is all
+    # Display events timestamps
+    plugin_activity_timestamps: # optional
+    # Repositories to skip
+    plugin_activity_skipped: # optional, default is 
+    # Display achievements
+    plugin_achievements: # optional
+    # Display rank minimal threshold
+    plugin_achievements_threshold: # optional, default is C
+    # Display unlocked secrets achievements
+    plugin_achievements_secrets: # optional, default is true
+    # Achievements display style
+    plugin_achievements_display: # optional, default is detailed
+    # Maximum number of achievements to display
+    plugin_achievements_limit: # optional, default is 0
+    # Unlocked achievements to hide
+    plugin_achievements_ignored: # optional, default is 
+    # Unlocked achievements to display
+    plugin_achievements_only: # optional, default is 
+    # Display notable contributions in organizations
+    plugin_notable: # optional
+    # Query filter
+    plugin_notable_filter: # optional, default is 
+    # Filter by repository host account type
+    plugin_notable_from: # optional, default is organization
+    # Also display repository name
+    plugin_notable_repositories: # optional
+    # Indepth notable contributions processing
+    plugin_notable_indepth: # optional
+    # GitHub discussions metrics
+    plugin_discussions: # optional
+    # GitHub Community Support metrics
+    plugin_support: # optional
+    # Display lines of code metrics
+    plugin_lines: # optional
+    # Repositories to skip
+    plugin_lines_skipped: # optional, default is 
+    # Display repositories traffic metrics
+    plugin_traffic: # optional
+    # Display chosen featured repositories
+    plugin_repositories: # optional
+    # List of repositories to display
+    plugin_repositories_featured: # optional, default is 
+    # Display gists metrics
+    plugin_gists: # optional
+    # Display account or repository introduction
+    plugin_introduction: # optional
+    # Display introduction section title
+    plugin_introduction_title: # optional, default is true
+    # Display GitHub sponsors
+    plugin_sponsors: # optional
+    # Sections to display
+    plugin_sponsors_sections: # optional, default is goal, about
+    # Display GitHub Skyline 3D calendar
+    plugin_skyline: # optional
+    # Displayed year
+    plugin_skyline_year: # optional, default is current-year
+    # Number of frames
+    plugin_skyline_frames: # optional, default is 60
+    # Image quality
+    plugin_skyline_quality: # optional, default is 0.5
+    # Compatibility mode
+    plugin_skyline_compatibility: # optional
+    # Display a website Google PageSpeed metrics
+    plugin_pagespeed: # optional
+    # Audited website
+    plugin_pagespeed_url: # optional, default is .user.website
+    # Detailed audit result
+    plugin_pagespeed_detailed: # optional
+    # Display a screenshot of your website
+    plugin_pagespeed_screenshot: # optional
+    # PageSpeed token
+    plugin_pagespeed_token: # optional, default is 
+    # Display your music tracks
+    plugin_music: # optional
+    # Music provider
+    plugin_music_provider: # optional, default is 
+    # Music provider personal token
+    plugin_music_token: # optional, default is 
+    # Plugin mode
+    plugin_music_mode: # optional, default is 
+    # Embed playlist url
+    plugin_music_playlist: # optional, default is 
+    # Maximum number of tracks to display
+    plugin_music_limit: # optional, default is 4
+    # Display when the track was played
+    plugin_music_played_at: # optional
+    # Time period for top mode
+    plugin_music_time_range: # optional, default is short
+    # Whether to show tracks or artists in top mode
+    plugin_music_top_type: # optional, default is tracks
+    # Music provider username
+    plugin_music_user: # optional, default is .user.login
+    # Display recent tweets
+    plugin_tweets: # optional
+    # Twitter API token
+    plugin_tweets_token: # optional, default is 
+    # Display tweets attchments
+    plugin_tweets_attachments: # optional
+    # Maximum number of tweets to display
+    plugin_tweets_limit: # optional, default is 2
+    # Twitter username
+    plugin_tweets_user: # optional, default is .user.twitter
+    # Display data from your AniList account
+    plugin_anilist: # optional
+    # Medias types to display
+    plugin_anilist_medias: # optional, default is anime, manga
+    # Sections to display
+    plugin_anilist_sections: # optional, default is favorites
+    # Maximum number of entries to display per section
+    plugin_anilist_limit: # optional, default is 2
+    # Maximum number of entries to display in characters section
+    plugin_anilist_limit_characters: # optional, default is 22
+    # Shuffle AniList data
+    plugin_anilist_shuffle: # optional, default is true
+    # AniList login
+    plugin_anilist_user: # optional, default is .user.login
+    # Stackoverflow metrics
+    plugin_stackoverflow: # optional
+    # Stackoverflow user id
+    plugin_stackoverflow_user: # optional, default is 0
+    # Sections to display
+    plugin_stackoverflow_sections: # optional, default is answers-top, questions-recent
+    # Maximum number of entries to display per section
+    plugin_stackoverflow_limit: # optional, default is 2
+    # Maximum number of lines to display per question or answer
+    plugin_stackoverflow_lines: # optional, default is 4
+    # Maximum number of lines to display per code snippet
+    plugin_stackoverflow_lines_snippet: # optional, default is 2
+    # Display recent posts
+    plugin_posts: # optional
+    # Posts external source
+    plugin_posts_source: # optional, default is 
+    # Display posts descriptions
+    plugin_posts_descriptions: # optional
+    # Display posts cover images
+    plugin_posts_covers: # optional
+    # Maximum number of posts to display
+    plugin_posts_limit: # optional, default is 4
+    # Posts external source username
+    plugin_posts_user: # optional, default is .user.login
+    # Display RSS feed
+    plugin_rss: # optional
+    # RSS feed source
+    plugin_rss_source: # optional, default is 
+    # Maximum number of items to display
+    plugin_rss_limit: # optional, default is 4
+    # Display WakaTime stats
+    plugin_wakatime: # optional
+    # WakaTime API token
+    plugin_wakatime_token: # optional, default is 
+    # WakaTime time range
+    plugin_wakatime_days: # optional, default is 7
+    # Sections to display
+    plugin_wakatime_sections: # optional, default is time, projects, projects-graphs, languages, languages-graphs, editors, os
+    # Maximum number of entries to display per graph
+    plugin_wakatime_limit: # optional, default is 5
+    # Address where to reach your Wakatime instance
+    plugin_wakatime_url: # optional, default is https://wakatime.com
+    # Your Wakatime user on the selfhosted Wakapi instance
+    plugin_wakatime_user: # optional, default is current
+    # Display stock prices of a given company
+    plugin_stock: # optional
+    # Yahoo Finance token
+    plugin_stock_token: # optional, default is 
+    # Company stock symbol
+    plugin_stock_symbol: # optional, default is 
+    # Time range to display
+    plugin_stock_duration: # optional, default is 1d
+    # Time intervals between records
+    plugin_stock_interval: # optional, default is 5m
+    # Display a screenshot of any website
+    plugin_screenshot: # optional
+    # Screenshot title caption
+    plugin_screenshot_title: # optional, default is Screenshot
+    # Website to take screenshot
+    plugin_screenshot_url: # optional, default is 
+    # Selector to take in screenshot
+    plugin_screenshot_selector: # optional, default is body
+    # Display or remove default page background
+    plugin_screenshot_background: # optional, default is true
+    # Displays Blood Glucose
+    plugin_nightscout: # optional
+    # Your Nightscout site URL
+    plugin_nightscout_url: # optional, default is https://example.herokuapp.com
+    # How many datapoints to show on the graph. 0 and 1 disable the graph.
+    plugin_nightscout_datapoints: # optional, default is 12
+    # When the blood sugar is considered low
+    plugin_nightscout_lowalert: # optional, default is 80
+    # When the blood sugar is considered high
+    plugin_nightscout_highalert: # optional, default is 180
+    # When the blood sugar is considered urgently low
+    plugin_nightscout_urgentlowalert: # optional, default is 50
+    # When the blood sugar is considered urgently high
+    plugin_nightscout_urgenthighalert: # optional, default is 250
