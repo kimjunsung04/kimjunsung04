@@ -22,7 +22,7 @@ jobs:
           config_timezone: Asia/Seoul
           plugin_habits : yes 
           plugin_habits_from : 200
-          plugin_habits_days : 14
+          plugin_habits_days : 7
           plugin_habits_facts : yes
           plugin_habits_charts : yes
           plugin_habits_trim : yes
@@ -34,7 +34,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_ignored : html, css
           plugin_languages_limit: 8
-          plugin_languages_threshold: 2%
+          plugin_languages_threshold: 0%
           plugin_people: yes
           plugin_people_limit: 28
           plugin_people_size: 28
