@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: MadeGOD
+          user: Kimjunsung04
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Seoul
