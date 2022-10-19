@@ -17,7 +17,7 @@ jobs:
 
           # Options
           user: Kimjunsung04
-          template: classic
+          template: repository
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Seoul
           plugin_habits : yes 
@@ -33,7 +33,7 @@ jobs:
           plugin_isocalendar_duration: half-year
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 0
+          plugin_activity_days: 7
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugin_people: yes
           plugin_people_limit: 28
