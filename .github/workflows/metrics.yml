@@ -34,7 +34,7 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 7
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity_filter: issue, pr, release, fork, review
           plugin_people: yes
           plugin_people_limit: 28
           plugin_people_size: 28
