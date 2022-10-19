@@ -31,10 +31,6 @@ jobs:
           plugin_introduction_title: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 7
-          plugin_activity_filter: pr, release, fork, review, push
           plugin_people: yes
           plugin_people_limit: 28
           plugin_people_size: 28
