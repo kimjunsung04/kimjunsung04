@@ -358,16 +358,16 @@
                             <div class="ct-chart">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="216" height="160" class="ct-chart-pie">
                                     <g class="ct-series ct-series-a">
-                                        <path d="M160.918,26.852A75,75,0,0,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.11289332514878966"/>
+                                        <path d="M160.918,26.852A75,75,0,0,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.11292647765497357"/>
                                     </g>
                                     <g class="ct-series ct-series-b">
-                                        <path d="M85.812,8.357A75,75,0,1,0,160.732,26.667L108,80Z" class="ct-slice-pie" ct:value="0.7494728975953455"/>
+                                        <path d="M85.812,8.357A75,75,0,1,0,160.732,26.667L108,80Z" class="ct-slice-pie" ct:value="0.7496929894815527"/>
                                     </g>
                                     <g class="ct-series ct-series-c">
-                                        <path d="M85.985,8.304A75,75,0,0,0,85.563,8.435L108,80Z" class="ct-slice-pie" ct:value="0.00034695348154474364"/>
+                                        <path d="M85.985,8.304A75,75,0,0,0,85.563,8.435L108,80Z" class="ct-slice-pie" ct:value="0.0003470553686795878"/>
                                     </g>
                                     <g class="ct-series ct-series-d">
-                                        <path d="M108,5A75,75,0,0,0,85.735,8.381L108,80Z" class="ct-slice-pie" ct:value="0.04294216552349943"/>
+                                        <path d="M108,5A75,75,0,0,0,85.735,8.381L108,80Z" class="ct-slice-pie" ct:value="0.042954776015804365"/>
                                     </g>
                                     <g>
                                         <text dx="122.31293255959227" dy="45.33892728802867" text-anchor="middle" class="ct-label">C</text>
@@ -1482,7 +1482,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 19 Oct 2022, 19:55:05 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 19 Oct 2022, 20:07:48 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
