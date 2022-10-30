@@ -357,22 +357,22 @@
                             <div class="ct-chart">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="216" height="160" class="ct-chart-pie">
                                     <g class="ct-series ct-series-a">
-                                        <path d="M154.46,21.124A75,75,0,0,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.09729282149182326"/>
+                                        <path d="M154.46,21.124A75,75,0,0,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.09731744351907237"/>
                                     </g>
                                     <g class="ct-series ct-series-b">
-                                        <path d="M52.133,29.962A75,75,0,1,0,154.255,20.962L108,80Z" class="ct-slice-pie" ct:value="0.6953561653287945"/>
+                                        <path d="M52.133,29.962A75,75,0,1,0,154.255,20.962L108,80Z" class="ct-slice-pie" ct:value="0.695532140063498"/>
                                     </g>
                                     <g class="ct-series ct-series-c">
-                                        <path d="M52.236,29.847A75,75,0,0,0,51.958,30.157L108,80Z" class="ct-slice-pie" ct:value="0.00029900867125146627"/>
+                                        <path d="M52.236,29.847A75,75,0,0,0,51.958,30.157L108,80Z" class="ct-slice-pie" ct:value="0.0002990843417843832"/>
                                     </g>
                                     <g class="ct-series ct-series-d">
-                                        <path d="M100.892,5.338A75,75,0,0,0,52.061,30.042L108,80Z" class="ct-slice-pie" ct:value="0.10826413966005013"/>
+                                        <path d="M100.892,5.338A75,75,0,0,0,52.061,30.042L108,80Z" class="ct-slice-pie" ct:value="0.10829153821377628"/>
                                     </g>
                                     <g class="ct-series ct-series-e">
-                                        <path d="M101.647,5.27A75,75,0,0,0,100.631,5.363L108,80Z" class="ct-slice-pie" ct:value="0.0014720426892379879"/>
+                                        <path d="M101.647,5.27A75,75,0,0,0,100.631,5.363L108,80Z" class="ct-slice-pie" ct:value="0.0014724152210923481"/>
                                     </g>
                                     <g class="ct-series ct-series-f">
-                                        <path d="M108,5A75,75,0,0,0,101.386,5.292L108,80Z" class="ct-slice-pie" ct:value="0.012351358189387492"/>
+                                        <path d="M108,5A75,75,0,0,0,101.386,5.292L108,80Z" class="ct-slice-pie" ct:value="0.012354483964477983"/>
                                     </g>
                                     <g>
                                         <text dx="120.29468234109618" dy="44.57273950569226" text-anchor="middle" class="ct-label">C</text>
@@ -1473,7 +1473,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 30 Oct 2022, 15:07:09 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 30 Oct 2022, 16:06:02 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
