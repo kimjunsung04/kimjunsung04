@@ -357,26 +357,26 @@
                             <div class="ct-chart">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="216" height="160" class="ct-chart-pie">
                                     <g class="ct-series ct-series-a">
-                                        <path d="M47.012,36.348A75,75,0,1,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.7687578774082362"/>
+                                        <path d="M47.417,35.788A75,75,0,1,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.7707919025036969"/>
                                     </g>
                                     <g class="ct-series ct-series-b">
-                                        <path d="M47.114,36.207A75,75,0,0,0,46.86,36.561L108,80Z" class="ct-slice-pie" ct:value="0.0003343879414563881"/>
+                                        <path d="M47.519,35.649A75,75,0,0,0,47.263,36L108,80Z" class="ct-slice-pie" ct:value="0.0003314466370914283"/>
                                     </g>
                                     <g class="ct-series ct-series-c">
-                                        <path d="M99.971,5.431A75,75,0,0,0,46.961,36.42L108,80Z" class="ct-slice-pie" ct:value="0.1210741569565553"/>
+                                        <path d="M100.049,5.423A75,75,0,0,0,47.364,35.86L108,80Z" class="ct-slice-pie" ct:value="0.12000917852225791"/>
                                     </g>
                                     <g class="ct-series ct-series-d">
-                                        <path d="M100.824,5.344A75,75,0,0,0,99.711,5.459L108,80Z" class="ct-slice-pie" ct:value="0.0016462175579391415"/>
+                                        <path d="M100.893,5.337A75,75,0,0,0,99.789,5.451L108,80Z" class="ct-slice-pie" ct:value="0.0016317372902962624"/>
                                     </g>
                                     <g class="ct-series ct-series-e">
-                                        <path d="M108,5A75,75,0,0,0,100.563,5.37L108,80Z" class="ct-slice-pie" ct:value="0.013812794197083108"/>
+                                        <path d="M108,5A75,75,0,0,0,100.632,5.363L108,80Z" class="ct-slice-pie" ct:value="0.013691295701392076"/>
                                     </g>
                                     <g>
-                                        <text dx="125.1431959689616" dy="113.35207387809308" text-anchor="middle" class="ct-label">Python</text>
-                                        <text dx="77.53141082538187" dy="58.13873119628363" text-anchor="middle" class="ct-label">HTML</text>
-                                        <text dx="89.13131539008512" dy="47.592859720556014" text-anchor="middle" class="ct-label">Svelte</text>
-                                        <text dx="104.19867104371595" dy="42.69316553007859" text-anchor="middle" class="ct-label">JavaScript</text>
-                                        <text dx="106.20382821419375" dy="42.54304114165335" text-anchor="middle" class="ct-label">Java</text>
+                                        <text dx="124.98935221627198" dy="113.43070312260055" text-anchor="middle" class="ct-label">Python</text>
+                                        <text dx="77.73389423507274" dy="57.85924929397747" text-anchor="middle" class="ct-label">HTML</text>
+                                        <text dx="89.2973698555839" dy="47.49674438335172" text-anchor="middle" class="ct-label">Svelte</text>
+                                        <text dx="104.23543343496047" dy="42.68943797558945" text-anchor="middle" class="ct-label">JavaScript</text>
+                                        <text dx="106.22124479844712" dy="42.542210023375" text-anchor="middle" class="ct-label">Java</text>
                                     </g>
                                 </svg>
                                 <div class="ct-legend">
@@ -1487,7 +1487,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 2 Nov 2022, 11:55:31 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 2 Nov 2022, 12:47:19 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
