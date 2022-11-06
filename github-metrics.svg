@@ -357,20 +357,20 @@
                             <div class="ct-chart">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="216" height="160" class="ct-chart-pie">
                                     <g class="ct-series ct-series-a">
-                                        <path d="M45.048,120.769A75,75,0,1,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.6467432950191571"/>
+                                        <path d="M45.048,120.769A75,75,0,1,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.6420914309426655"/>
                                     </g>
                                     <g class="ct-series ct-series-b">
-                                        <path d="M88.15,7.674A75,75,0,0,0,45.191,120.988L108,80Z" class="ct-slice-pie" ct:value="0.2934865900383142"/>
+                                        <path d="M88.15,7.674A75,75,0,0,0,45.191,120.988L108,80Z" class="ct-slice-pie" ct:value="0.2913756138045508"/>
                                     </g>
                                     <g class="ct-series ct-series-c">
-                                        <path d="M90.221,7.138A75,75,0,0,0,87.898,7.744L108,80Z" class="ct-slice-pie" ct:value="0.004458376872169976"/>
+                                        <path d="M90.221,7.138A75,75,0,0,0,87.898,7.744L108,80Z" class="ct-slice-pie" ct:value="0.00442630887336607"/>
                                     </g>
                                     <g class="ct-series ct-series-d">
-                                        <path d="M108,5A75,75,0,0,0,89.967,7.2L108,80Z" class="ct-slice-pie" ct:value="0.0374085684430512"/>
+                                        <path d="M108,5A75,75,0,0,0,89.967,7.2L108,80Z" class="ct-slice-pie" ct:value="0.03713949789058718"/>
                                     </g>
                                     <g>
-                                        <text dx="140.94440414177313" dy="97.91413508220593" text-anchor="middle" class="ct-label">Python</text>
-                                        <text dx="72.9585919024799" dy="66.64523611054642" text-anchor="middle" class="ct-label">Svelte</text>
+                                        <text dx="140.94440414177313" dy="97.91413508220595" text-anchor="middle" class="ct-label">Python</text>
+                                        <text dx="72.95859190247992" dy="66.64523611054638" text-anchor="middle" class="ct-label">Svelte</text>
                                         <text dx="98.59191866544889" dy="43.699338771828536" text-anchor="middle" class="ct-label">JavaScript</text>
                                         <text dx="103.52326969425992" dy="42.768173751887105" text-anchor="middle" class="ct-label">Java</text>
                                     </g>
@@ -1466,7 +1466,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 7 Nov 2022, 05:06:41 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 7 Nov 2022, 06:06:22 (timezone Asia/Seoul) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
