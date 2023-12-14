@@ -82,7 +82,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1806 Commits
+                            1807 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -223,12 +223,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 130 commits)</small>
+                    <small class="h-details">(computed from last 121 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 35.9 characters per line of code written</li>
+                        <li>Has approximately 35.8 characters per line of code written</li>
                         <li>Mostly pushes code around 00:00</li>
                         <li>Mostly active on Tuesday</li>
                     </ul>
@@ -352,8 +352,8 @@
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">0</text>
                                 </g>
                             </g>
-                            <path transform="translate(10,10)" d="M10,10L29.565,105L49.13,105L68.696,105L88.261,105L107.826,105L127.391,105L146.957,105L166.522,105L186.087,67.679L205.652,101.607L225.217,105L244.783,94.821L264.348,105L283.913,64.286L303.478,74.464L323.043,84.643L342.609,77.857L362.174,77.857L381.739,84.643L401.304,77.857L420.87,91.429L440.435,57.5L460,64.286" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
-                            <path transform="translate(10,10)" d="M10,105L29.565,105L49.13,105L68.696,105L88.261,105L107.826,105L127.391,105L146.957,105L166.522,105L186.087,105L205.652,105L225.217,105L244.783,105L264.348,105L283.913,105L303.478,105L323.043,105L342.609,105L362.174,105L381.739,105L401.304,105L420.87,105L440.435,105L460,105L460,64.286L440.435,57.5L420.87,91.429L401.304,77.857L381.739,84.643L362.174,77.857L342.609,77.857L323.043,84.643L303.478,74.464L283.913,64.286L264.348,105L244.783,94.821L225.217,105L205.652,101.607L186.087,67.679L166.522,105L146.957,105L127.391,105L107.826,105L88.261,105L68.696,105L49.13,105L29.565,105L10,10Z" fill="rgba(88, 166, 255, .1)"/>
+                            <path transform="translate(10,10)" d="M10,10L29.565,105L49.13,105L68.696,105L88.261,105L107.826,105L127.391,105L146.957,105L166.522,105L186.087,67.679L205.652,101.607L225.217,105L244.783,94.821L264.348,105L283.913,64.286L303.478,74.464L323.043,84.643L342.609,77.857L362.174,77.857L381.739,84.643L401.304,77.857L420.87,91.429L440.435,57.5L460,94.821" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
+                            <path transform="translate(10,10)" d="M10,105L29.565,105L49.13,105L68.696,105L88.261,105L107.826,105L127.391,105L146.957,105L166.522,105L186.087,105L205.652,105L225.217,105L244.783,105L264.348,105L283.913,105L303.478,105L323.043,105L342.609,105L362.174,105L381.739,105L401.304,105L420.87,105L440.435,105L460,105L460,94.821L440.435,57.5L420.87,91.429L401.304,77.857L381.739,84.643L362.174,77.857L342.609,77.857L323.043,84.643L303.478,74.464L283.913,64.286L264.348,105L244.783,94.821L225.217,105L205.652,101.607L186.087,67.679L166.522,105L146.957,105L127.391,105L107.826,105L88.261,105L68.696,105L49.13,105L29.565,105L10,10Z" fill="rgba(88, 166, 255, .1)"/>
                             <g>
                                 <circle transform="translate(10,10)" cx="10" cy="10" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="29.565217391304348" cy="105" r="2" fill="#106cbc"/>
@@ -378,7 +378,7 @@
                                 <circle transform="translate(10,10)" cx="401.30434782608694" cy="77.85714285714286" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="420.8695652173913" cy="91.42857142857143" r="2" fill="#106cbc"/>
                                 <circle transform="translate(10,10)" cx="440.4347826086956" cy="57.5" r="2" fill="#106cbc"/>
-                                <circle transform="translate(10,10)" cx="460" cy="64.28571428571429" r="2" fill="#106cbc"/>
+                                <circle transform="translate(10,10)" cx="460" cy="94.82142857142857" r="2" fill="#106cbc"/>
                             </g>
                             <g fill="currentColor" text-anchor="middle" font-family="sans-serif" font-size="10" stroke="rgba(88, 166, 255, .05)" stroke-linejoin="round" stroke-width="4" paint-order="stroke fill">
                                 <text transform="translate(10,6)" x="10" y="10" fill="rgba(127, 127, 127, .8)">28</text>
@@ -404,7 +404,7 @@
                                 <text transform="translate(10,6)" x="401.30434782608694" y="77.85714285714286" fill="rgba(127, 127, 127, .8)">8</text>
                                 <text transform="translate(10,6)" x="420.8695652173913" y="91.42857142857143" fill="rgba(127, 127, 127, .8)">4</text>
                                 <text transform="translate(10,6)" x="440.4347826086956" y="57.5" fill="rgba(127, 127, 127, .8)">14</text>
-                                <text transform="translate(10,6)" x="460" y="64.28571428571429" fill="rgba(127, 127, 127, .8)">12</text>
+                                <text transform="translate(10,6)" x="460" y="94.82142857142857" fill="rgba(127, 127, 127, .8)">3</text>
                             </g>
                         </svg>
                     </div>
@@ -463,14 +463,14 @@
                                         <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">0</text>
                                     </g>
                                 </g>
-                                <path transform="translate(10,10)" d="M10,65.417L41,60.139L72,10L103,54.861L134,54.861L165,65.417L196,81.25" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
-                                <path transform="translate(10,10)" d="M10,105L41,105L72,105L103,105L134,105L165,105L196,105L196,81.25L165,65.417L134,54.861L103,54.861L72,10L41,60.139L10,65.417Z" fill="rgba(88, 166, 255, .1)"/>
+                                <path transform="translate(10,10)" d="M10,65.417L41,60.139L72,10L103,54.861L134,78.611L165,65.417L196,81.25" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
+                                <path transform="translate(10,10)" d="M10,105L41,105L72,105L103,105L134,105L165,105L196,105L196,81.25L165,65.417L134,78.611L103,54.861L72,10L41,60.139L10,65.417Z" fill="rgba(88, 166, 255, .1)"/>
                                 <g>
                                     <circle transform="translate(10,10)" cx="10" cy="65.41666666666666" r="2" fill="#106cbc"/>
                                     <circle transform="translate(10,10)" cx="41" cy="60.13888888888889" r="2" fill="#106cbc"/>
                                     <circle transform="translate(10,10)" cx="72" cy="10" r="2" fill="#106cbc"/>
                                     <circle transform="translate(10,10)" cx="103" cy="54.86111111111111" r="2" fill="#106cbc"/>
-                                    <circle transform="translate(10,10)" cx="134" cy="54.86111111111111" r="2" fill="#106cbc"/>
+                                    <circle transform="translate(10,10)" cx="134" cy="78.6111111111111" r="2" fill="#106cbc"/>
                                     <circle transform="translate(10,10)" cx="165" cy="65.41666666666666" r="2" fill="#106cbc"/>
                                     <circle transform="translate(10,10)" cx="196" cy="81.25" r="2" fill="#106cbc"/>
                                 </g>
@@ -479,7 +479,7 @@
                                     <text transform="translate(10,6)" x="41" y="60.13888888888889" fill="rgba(127, 127, 127, .8)">17</text>
                                     <text transform="translate(10,6)" x="72" y="10" fill="rgba(127, 127, 127, .8)">36</text>
                                     <text transform="translate(10,6)" x="103" y="54.86111111111111" fill="rgba(127, 127, 127, .8)">19</text>
-                                    <text transform="translate(10,6)" x="134" y="54.86111111111111" fill="rgba(127, 127, 127, .8)">19</text>
+                                    <text transform="translate(10,6)" x="134" y="78.6111111111111" fill="rgba(127, 127, 127, .8)">10</text>
                                     <text transform="translate(10,6)" x="165" y="65.41666666666666" fill="rgba(127, 127, 127, .8)">15</text>
                                     <text transform="translate(10,6)" x="196" y="81.25" fill="rgba(127, 127, 127, .8)">9</text>
                                 </g>
@@ -1618,7 +1618,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 Dec 2023, 23:06:18 (timezone Asia/Seoul) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 15 Dec 2023, 00:06:19 (timezone Asia/Seoul) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
