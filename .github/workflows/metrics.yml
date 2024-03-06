@@ -35,3 +35,4 @@ jobs:
           plugin_people_limit: 28
           plugin_people_size: 28
           plugin_people_types: followers, following
+          plugin_languages: yes
